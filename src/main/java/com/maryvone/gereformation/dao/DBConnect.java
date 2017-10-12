@@ -18,7 +18,7 @@ public class DBConnect {
 
             
 
-                conn = DriverManager.getConnection(URL, "root", "Wowzillah");
+                conn = DriverManager.getConnection(URL, "*login*", "*password*");//replace by your password and user from PHPmyAdmin
 
 
             } catch (SQLException sqlE) {
